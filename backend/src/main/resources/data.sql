@@ -54,3 +54,14 @@ INSERT INTO tb_product_category (product_id, category_id) VALUES (22, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (23, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (24, 3);
 INSERT INTO tb_product_category (product_id, category_id) VALUES (25, 3);
+
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Monteiro Lobato', '41563275074', 6500.0,  TIMESTAMP WITH TIME ZONE '1950-07-23T10:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Rachel de Queiroz', '39687007087', 9540.0,  TIMESTAMP WITH TIME ZONE '1935-01-15T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Machado de Assis', '27521223063', 7540.0,  TIMESTAMP WITH TIME ZONE '1926-08-26T10:00:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('José Saramago', '37936472002', 9840.0,  TIMESTAMP WITH TIME ZONE '1916-02-10T10:00:00Z', 6);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Gabriel Garcia Marques', '29994079042', 7840.0,  TIMESTAMP WITH TIME ZONE '1932-07-10T10:00:00Z', 10);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Adolfo Caminha', '74646374021', 6840.0,  TIMESTAMP WITH TIME ZONE '1947-01-15T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('José de Alencar', '77963119075', 5635.0,  TIMESTAMP WITH TIME ZONE '1927-12-20T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('José Lins do Rego', '76920694093', 12335.0,  TIMESTAMP WITH TIME ZONE '1939-02-03T10:00:00Z', 4);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Lázaro Ramos', '27083304033', 9312.0,  TIMESTAMP WITH TIME ZONE '1975-06-10T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Fernando Pessoa', '54299963008', 7312.0,  TIMESTAMP WITH TIME ZONE '1969-01-18T10:00:00Z', 3);
