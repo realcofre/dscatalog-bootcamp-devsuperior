@@ -1,5 +1,13 @@
+import Alert from './Alert';
+
 const App = () => {
-    return <h1>Hello App</h1>
+    return (
+        <div className="container mt-5">
+            <Alert text="Renato"/>
+            <Alert text="Bootcamp"/>
+            
+        </div>
+    )
 }
 
 export default App;
