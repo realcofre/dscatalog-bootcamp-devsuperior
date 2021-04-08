@@ -1,5 +1,5 @@
 import React from 'react';
-import {ReactComponent as ArraowIcon} from '../../assets/images/arrow.svg';
+import {ReactComponent as ArraowIcon} from 'core/assets/images/arrow.svg';
 import './styles.scss';
 
 
