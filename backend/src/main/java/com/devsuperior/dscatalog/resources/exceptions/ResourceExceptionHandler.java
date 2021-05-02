@@ -48,7 +48,7 @@ public class ResourceExceptionHandler {
 		HttpStatus status = HttpStatus.UNPROCESSABLE_ENTITY;
 		ValidationError err = new ValidationError();
 		err.setTimestamp(Instant.now());
-		err.setStatus(HttpStatus.BAD_REQUEST.value());
+		err.setStatus(HttpStatus.UNPROCESSABLE_ENTITY.value());
 		err.setError("Validation exception");
 		err.setMessage(e.getMessage());
 		err.setPath(request.getRequestURI());
